@@ -1,0 +1,132 @@
+* { box-sizing: border-box;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+:root{
+    --margin : 10px;
+    --padding : 20px ;
+    --backgroundColor : #fff ;
+    --raduis : 4px
+}
+.quizapp{
+    margin: 100px auto;
+    width: 856px;
+    padding: 10px;
+    background-color: #f4f1fd;
+    border-radius: var(--raduis);
+    box-shadow: 0 0 10px #00000030;
+}
+.quizapp .divctegory{
+    margin: var(--margin);
+    padding: var(--padding) ;
+    display: flex;
+    background-color: var(--backgroundColor);
+    border-radius: var(--raduis);
+}
+.quizapp .divctegory .category{
+    flex : 1;
+}
+.quizapp .divctegory .count{
+    flex: 1 ;
+    text-align: end;
+}
+.quizapp .question{
+    margin: var(--margin);
+    padding: var(--padding) ;
+    background-color: var(--backgroundColor);
+    font-weight: bold;
+    border-radius: var(--raduis);
+    
+}
+.quizapp .answers{
+    margin: var(--margin);
+    background-color: var(--backgroundColor);
+    border-radius: var(--raduis);
+    /* font-family: "Maven Pro", serif; */
+}
+.quizapp .answers div{
+    padding: var(--padding) ;
+}
+.quizapp .answers div label{
+    cursor: pointer;
+}
+.quizapp .answers div input[type="radio"]:checked + label ,
+.quizapp .answers div input[type="radio"]:checked + label:hover{
+    color: #0075ff;
+}
+.quizapp .answers div input[type="radio"]:checked{
+    accent-color: #0075ff;
+}
+.quizapp .answers div input[type="radio"] + label{
+    color: rgb(115, 110, 110);
+    margin-left: 10px;
+}
+.quizapp .answers div input[type="radio"] + label:hover{
+    color: rgb(34, 26, 26);
+}
+.quizapp .answers div:not(:last-child){
+   border-bottom: 3px solid #f9f9f9;
+}
+.quizapp .button{
+    margin: var(--margin);
+}
+.quizapp .button button{
+    background-color: #0075ff;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+}
+.quizapp .button button:hover{
+    background-color: #1776e2;
+}
+.quizapp .timer{
+    margin: var(--margin);
+    padding: var(--padding);
+    display: flex;
+    background-color: var(--backgroundColor);
+    border-radius: var(--raduis);
+}
+.quizapp .timer .spans{
+    flex: 1;
+    display: flex;
+}
+.quizapp .timer .spans :first-child{
+    background-color: #0075ff;
+}
+.quizapp .timer .spans span{
+    width: 25px;
+    height: 25px;
+    background-color: #c6bdbdad;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.quizapp .timer .time{
+    flex: 1;
+    text-align: end;
+}
+
+.spans .on{
+    background-color: #0075ff !important;
+}
+
+.swal2-popup {
+    font-size: 45px !important;
+}
+
+.perfect{
+    color: #0075ff;
+    font-weight: bold;
+}
+.good{
+    color: #17b13b;
+    font-weight: bold;
+}
+.bad{
+    color: red;
+    font-weight: bold;
+}

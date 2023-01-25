@@ -1,0 +1,75 @@
+[
+    {
+        "title" : "Why we use &lt;br&gt; Element",
+        "answer_1" : "To make text bold",
+        "answer_2" : "To make text italice",
+        "answer_3" : "To add breakline",
+        "answer_4" : "To create Horisental line", 
+        "right_answer" : "To add breakline"
+    },
+    {
+        "title" : "Is &lt;img&gt; Elemnt has attribute href",
+        "answer_1" : "yes",
+        "answer_2" : "No its for anchor tag &lt;a&gt;",
+        "answer_3" : "All element has this attribute",
+        "answer_4" : "Answer 1 and 3 is right", 
+        "right_answer" : "No its for anchor tag &lt;a&gt;"
+    },
+    {
+        "title" : "how can we make element text bold",
+        "answer_1" : "putting it inside &lt;b&gt; tag ",
+        "answer_2" : "putting it inside &lt;strong&gt; tag ",
+        "answer_3" : "Customizing it with font-weight property in css",
+        "answer_4" : "All answers is right", 
+        "right_answer" : "All answers is right"
+    },
+    {
+        "title" : "what is the right hiererchy for creating part of page",
+        "answer_1" : "&lt;h2> then &lt;p> then &lt;h1> then &lt;p> then &lt;h3> then &lt;p> then &lt;img>",
+        "answer_2" : "&lt;h1> then &lt;p> then &lt;h2> then &lt;p> then &lt;h3> then &lt;p> then &lt;img>",
+        "answer_3" : "&lt;h1> then &lt;p> then &lt;h3> then &lt;p> then &lt;h3> then &lt;p> then &lt;img>",
+        "answer_4" : "All answers is wrong", 
+        "right_answer" : "All answers is wrong"
+    },
+    {
+        "title" : "how can we include external page inside our html page ",
+        "answer_1" : "by using includein html",
+        "answer_2" : "by using load in html",
+        "answer_3" : "by using iframe tag",
+        "answer_4" : "All solutions is wrong", 
+        "right_answer" : "by using iframe tag"
+    }, 
+    {
+        "title" : "what  is the tag that not existe in html",
+        "answer_1" : "&lt;object>",
+        "answer_2" : "&lt;basefot>",
+        "answer_3" : "&lt;abbr>",
+        "answer_4" : "All tags is existe in html", 
+        "right_answer" : "All tags is existe in html"
+    }, 
+    {
+        "title" : "how we specify document type of html page",
+        "answer_1" : "&lt;DOCTYPE html>",
+        "answer_2" : "&lt;DOCTYPE html5>",
+        "answer_3" : "&lt;!DOCTYPE html5>",
+        "answer_4" : "&lt;!DOCTYPE html>", 
+        "right_answer" : "&lt;!DOCTYPE html>"
+    }, 
+    {
+        "title" : "what is the element thats not existe in html5 sementic",
+        "answer_1" : "&lt;article>",
+        "answer_2" : "&lt;section>",
+        "answer_3" : "&lt;blockquote>",
+        "answer_4" : "&lt;side>", 
+        "right_answer" : "&lt;blockquote>"
+    }, 
+    {
+        "title" : "in html can we use this way to add attributes",
+        "answer_1" : "&lt;div class='class_name'>",
+        "answer_2" : "&lt;div class=class_name>",
+        "answer_3" : "&lt;div class=\"class_name\">",
+        "answer_4" : "All answers is right", 
+        "right_answer" : "All answers is right"
+    }
+]
+
